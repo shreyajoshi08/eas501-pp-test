@@ -1,4 +1,4 @@
-#!/bin/python3.7
+
 if __name__ == '__main__':
   import py_compile
   import sys
