@@ -9,3 +9,7 @@ if __name__ == '__main__':
       newFile = files + "c"
       py_compile.compile(files, newFile)
 
+    if files.endswith('unit.py'):
+      newFile = files + "c"
+      py_compile.compile(files, newFile)
+
